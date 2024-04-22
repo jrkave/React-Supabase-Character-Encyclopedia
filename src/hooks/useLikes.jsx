@@ -14,7 +14,7 @@ const useLikes = (characterId) => {
             const { data, error } = await supabase.from('likes').select('*').eq('character_id', characterId);
             if (error) {
                 console.error('Error fetching likes:', error);
-                setError(error);
+                setError(error.message);
                 setLoading(false);
                 return;
             }

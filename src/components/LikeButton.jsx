@@ -44,6 +44,7 @@ function LikeButton({ id }) {
                 role="button"
                 color={isLiked ? 'orange' : 'white'}
                 onClick={handleLikeClick}
+                data-testid="like-button"
             />
             <span id="count">&nbsp;&nbsp;{likes.length}</span>
         </span>
