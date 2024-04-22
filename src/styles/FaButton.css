@@ -1,0 +1,11 @@
+.fa-button {
+    padding-left: 8px;
+}
+
+.fa-button:hover {
+    color: #FFAC1C;
+}
+
+#count {
+    color: rgb(144, 154, 166);
+}

@@ -1,0 +1,9 @@
+div .colored-circle {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border-width: 0.5px;
+    height: 0.5em;
+    width: 0.5em;
+  }

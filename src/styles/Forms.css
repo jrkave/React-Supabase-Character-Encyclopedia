@@ -1,0 +1,46 @@
+h2 {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+}
+
+.card {
+    background-color: rgb(40, 43, 50);
+    padding-bottom: 15px;
+    width: 25rem;
+}
+
+.card.body {
+    color: white;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.form-label {
+    color: lightgrey;
+}
+
+.form-control {
+    background-color: rgb(33, 36, 43);
+}
+
+.form-control:focus {
+    color: white;
+    background-color: rgb(33, 36, 43);
+}
+
+.form-control:not(active) {
+    color: white;
+}
+
+#email, #password, #confirm-password {
+    padding: 5px;
+}
+
+#password, #confirm-password {
+    padding-bottom: 15px;
+}
+
+.links {
+    color: lightgrey;
+} 

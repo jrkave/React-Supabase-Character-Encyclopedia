@@ -1,0 +1,11 @@
+.info {
+    color: rgb(144, 154, 166);
+}
+
+#home-btn {
+    color: #8db4f2;
+}
+
+#home-btn:hover {
+    color: orange;
+}

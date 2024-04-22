@@ -1,0 +1,27 @@
+.custom-card {
+    background-color: rgb(60, 62, 67) !important;
+    color: white;
+    max-width: 20rem;
+    min-height: 36rem;
+    margin: 0.5em;
+}
+
+.card-subtitle {
+    color: rgb(144, 154, 166) !important;
+}
+
+div .section {
+    padding: 5px;
+}
+
+div .section:last-child {
+    padding-bottom: 0px;
+}
+
+span {
+    color: white;
+}
+
+div .info {
+    color: rgb(144, 154, 166);
+}
