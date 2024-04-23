@@ -45,11 +45,11 @@ const Login = () => {
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" ref={emailRef} required />
+              <Form.Control type="email" id="email-input" ref={emailRef} required />
             </Form.Group>
             <Form.Group id="password">
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" ref={passwordRef} required />
+              <Form.Control type="password" id="password-input" ref={passwordRef} required />
             </Form.Group>
             {errorMsg && (
               <Alert
@@ -60,7 +60,7 @@ const Login = () => {
               </Alert>
             )}
             <div className="text-center mt-2">
-              <Button disabled={loading} size="med" type="submit" className="w-50">
+              <Button disabled={loading} id="login-btn" size="med" type="submit" className="w-50">
                 Login
               </Button>
             </div>
